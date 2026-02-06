@@ -4,8 +4,8 @@
         "CMAKE_TOOLCHAIN_FILE": "${env:VCPKG_ROOT}/scripts/buildsystems/vcpkg.cmake"
     },
     "cmake.environment": {
-        "LSAN_OPTIONS": "suppressions=${workspaceFolder}/Maelstrom.asan.supp:print_suppressions=1",
-        "ASAN_OPTIONS": "log_path=${workspaceFolder}/dev/asan/logs/Maelstrom.asan.log"
+        "LSAN_OPTIONS": "suppressions=${workspaceFolder}/entt.asan.supp:print_suppressions=1",
+        "ASAN_OPTIONS": "log_path=${workspaceFolder}/dev/asan/logs/entt.asan.log"
     },
     "files.insertFinalNewline": true,
     "editor.detectIndentation": false,
